@@ -16,8 +16,8 @@
 PRODUCT_COPY_FILES += \
     vendor/htc/ruby/proprietary/libcamera.so:obj/lib/libcamera.so \
     vendor/htc/ruby/proprietary/libaudioalsa.so:obj/lib/libaudioalsa.so \
-    vendor/htc/pyramid/proprietary/lib/libacdbloader.so:obj/lib/libacdbloader.so \
-    vendor/htc/pyramid/proprietary/lib/libacdbmapper.so:obj/lib/libacdbmapper.so 
+    vendor/htc/ruby/proprietary/libacdbloader.so:obj/lib/libacdbloader.so \
+    vendor/htc/ruby/proprietary/libacdbmapper.so:obj/lib/libacdbmapper.so
 #    vendor/htc/ruby/proprietary/libv8.so:obj/lib/libv8.so
 
 # All the blobs necessary for ruby
@@ -46,9 +46,7 @@ PRODUCT_COPY_FILES += \
     vendor/htc/ruby/proprietary/logcat2:system/bin/logcat2 \
     vendor/htc/ruby/proprietary/htc_ebdlogd:system/bin/htc_ebdlogd \
     vendor/htc/ruby/proprietary/DxDrmServerIpc:system/bin/DxDrmServerIpc \
-    vendor/htc/ruby/proprietary/ks:/system/bin/ks \
-    vendor/htc/pyramid/proprietary/lib/libacdbloader.so:system/lib/libacdbloader.so \
-    vendor/htc/pyramid/proprietary/lib/libacdbmapper.so:system/lib/libacdbmapper.so 
+    vendor/htc/ruby/proprietary/ks:/system/bin/ks
 
 #    vendor/htc/ruby/proprietary/ip:/system/bin/ip \
 #    vendor/htc/ruby/proprietary/ipd:/system/bin/ipd \
